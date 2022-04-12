@@ -32,12 +32,15 @@ The sections in the body of the page did not have headings. The following headin
 - "What We Offer" (Search Engine Optimization, Online Reputation Management, and Social Media Marketing)
 - "How We Can Help" (Lead Generation, Brand Awareness, Cost Management)
 
+The simple images did not have alt attributes. Alt attributes were added to each simple image. 
+
 ## Links
 The title did not have a homepage link. This was fixed with href="/".
 
+The link in the nav for "Search Engine Optimization" was not working. An id attribute was added that contained the href of the nav link. 
+
 ## CSS
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+FIX FLOAT OF NAV
+FIX FLOAT CLASSES?
+FIX SEO IN HEADER
+(DO THIS) The footer did not have the same styling as the header, which will help with the site's branding. CSS styling for the footer was added. 
