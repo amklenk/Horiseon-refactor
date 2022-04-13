@@ -5,9 +5,9 @@
 The goal of this project is to refactor Horiseon's code to make their website more accessible by screen readers and for SEOe. They are looking for: 
 
 - Correct HTML semantics
-- A logical flow of h elements
 - Correct and succinct alt attributes, when necessary
 - Links that work correctly
+- Cleanly written, working CSS styling
 
 ## Table of Contents (Optional)
 
@@ -16,6 +16,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Semantics](#semantics)
 - [Links](#links)
 - [CSS](#css)
+- [Comments] (#comments)
 
 ## Semantics
 
@@ -28,7 +29,7 @@ Besides the head and body tags, the rest of the page uses div tags. This is not 
 
 The website title did not give enough of a description. It was changed from "website" to "Home Page - Horiseon" to fit the common naming convention. 
 
-The simple images did not have alt attributes. Alt attributes were added to each simple image. 
+The images did not have alt attributes. Alt attributes with descriptions were added to each simple image. Empty alt attributes were added to each SVG. 
 
 ## Links
 The title did not have a homepage link. This was fixed with href="/".
@@ -43,6 +44,13 @@ The a element is only in the header section at the moment, as such an a element 
 
 The p element styling refers to the p elements within the body section tags and the footer tag. The class selectors were added for possible future addiitions. 
 
+The header section did not need the specificity of a class since it is the only (and can be the only) header section. The class style blocks were changed to element style blocks. 
+
 FIX FLOAT OF NAV
 FIX FLOAT CLASSES
 (DO THIS) The footer did not have the same styling as the header, which will help with the site's branding. CSS styling for the footer was added. 
+
+## Comments
+
+It would be a good idea to change the SEO in Horiseon to make it darker and have it truly pop.
+It would be helpful to add headings to each section so that the user quickly understands the difference. 

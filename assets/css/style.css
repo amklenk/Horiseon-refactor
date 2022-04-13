@@ -12,22 +12,22 @@ body {
 }
 
 /*header styling*/ 
-.header {
+header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -35,16 +35,16 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-.header a {
+header a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -63,7 +63,7 @@ body {
 }
 /*hero end*/
 
-/*linked section styling*/
+/*left section styling*/
 .content.benefits.benefit-brand p {
     font-size: 16px;
 }
@@ -95,7 +95,7 @@ body {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-descriptions {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -197,6 +197,7 @@ body {
     font-size: 36px;
 }
 
+/*footer styling*/
 .footer {
     padding: 30px;
     clear: both;
@@ -207,3 +208,4 @@ body {
 .footer h2 {
     font-size: 20px;
 }
+/*footer styling end*/
