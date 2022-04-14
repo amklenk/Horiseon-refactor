@@ -41,9 +41,11 @@ The font-family was placed in the header class styling block. It was moved to th
 
 The a element is only in the header section at the moment, as such an a element selector was used. For possible future additions, the header element selector was added in front of the a element selector to make sure that the styling refers to the header a tags only. 
 
-The header section did not need the specificity of a class since it is the only (and can be the only) header section. The class style blocks were changed to element style blocks. 
+The header section and the footer section did not need the specificity of a class (header and footer, respectively) since there can only be one of each section. The class style blocks were changed to element style blocks. 
 
-The p element styling refers to the p elements within the body section tags and the footer tag. The class selectors were added for possible future addiitions. 
+The class selector "header div" was changed to "header nav" to match the tag change.
+
+The p element styling refers to the p elements within the body section tags. The class selectors were added for possible future addiitions. 
 
 The styling for the left and right sections were mixed on the style sheet. The styling blocks were organized based on their section. 
 
