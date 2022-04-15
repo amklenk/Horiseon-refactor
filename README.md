@@ -80,8 +80,8 @@ The following screenshot shows the site after refactoring. It is visually the sa
 
 ## Credits
 The following sites were used as references: 
-- []()
-- []()
+- [HTML Semantic Elements - W3Schools](https://www.w3schools.com/html/html5_semantic_elements.asp#:~:text=or%20Vice%20Versa%3F-,The%20element%20specifies%20independent%2C%20self%2Dcontained%20content,defines%20section%20in%20a%20document)
+- [Multiple Class / ID and Class Selectors](https://css-tricks.com/multiple-class-id-selectors/)
 
 ## License
 
