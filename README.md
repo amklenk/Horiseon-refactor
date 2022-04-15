@@ -1,12 +1,12 @@
-# Horiseon-refactor
+# Horiseon Refactor
 
 ## Description
 
 The goal of this project is to refactor Horiseon's code to make their website more accessible by assistive technologies and for SEOe. They are looking for: 
 
-- Correct HTML semantics
+- HTML semantics that adequately describe each element
 - Correctly-working links
-- Cleanly written, working CSS styling blocks
+- Cleanly written, condensed, working CSS styling blocks
 
 
 ## Table of Contents (Optional)
@@ -16,7 +16,7 @@ These sections show each expectation and the changes that were made:
 - [Installation](#installation)
 - [Links](#links)
 - [Usage](#usage)
-- [Refactoring] (#refactoring)
+- [Refactoring](#refactoring)
 - [Credits](#credits)
 - [License](#license)
 
@@ -39,11 +39,11 @@ The following screenshot shows the site after refactoring. It is visually the sa
 * The website title did not give enough of a description. It was changed from "website" to "Home Page - Horiseon" to fit the common naming convention.
 
 * Besides the head and body tags, the rest of the page used div tags. The following tags were used as replacements: 
-- header
-- nav
-- section
-- article
-- footer  
+        - header
+        - nav
+        - section
+        - article
+        - footer  
 
 * The images did not have alt attributes. Alt attributes with descriptions were added to each simple image. Empty alt attributes were added to each SVG. 
 
