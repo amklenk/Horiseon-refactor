@@ -42,8 +42,9 @@ The following screenshot shows the site after refactoring. It is visually the sa
 * Besides the head and body tags, the rest of the page used div tags. The following tags were used as replacements: 
         - header
         - nav
+        - main
         - section
-        - article
+        - aside
         - footer  
 
 * The images did not have alt attributes. Alt attributes with descriptions were added to each simple image. Empty alt attributes were added to each SVG. 
