@@ -43,8 +43,9 @@ The following screenshot shows the site after refactoring. It is visually the sa
         - header
         - nav
         - main
-        - section
+        - article
         - aside
+        - section
         - footer  
 
 * The images did not have alt attributes. Alt attributes with descriptions were added to each simple image. Empty alt attributes were added to each SVG. 
@@ -56,21 +57,19 @@ The following screenshot shows the site after refactoring. It is visually the sa
 
 ### CSS Organization and Consolidation
 
-* The font-family was placed in the header class styling block. It was moved to the body element styling block so that it can apply to the whole body section. 
+* The font-family was placed in the header class styling block. It was moved to the body element styling block so that it can apply to the whole body. 
 
-* The a element is only in the header section at the moment, as such an a element selector was used. For possible future additions, the header element selector was added in front of the a element selector to make sure that the styling refers to the header a tags only. 
+* The a element is only in the header at the moment, as such an a element selector was used. For possible future additions, the header element selector was added in front of the a element selector to make sure that the styling refers to the header a tags only. 
 
-* The header section and the footer section did not need the specificity of a class (header and footer, respectively) since there can only be one of each section. The class style blocks were changed to element style blocks. 
+* The header and the footer did not need the specificity of a class (.header and .footer, respectively) since there can only be one of each. The class style blocks were changed to element style blocks. 
 
 * The class selector "header div" was changed to "header nav" to match the tag change.
 
-* The p element styling refers to the p elements within the body section tags. The class selectors were added for possible future addiitions. 
+* The p element styling refers to the p elements within the body tags. The class selectors were added for possible future addiitions. 
 
-* The styling for the left and right sections were mixed on the style sheet. The styling blocks were organized based on their section. 
+* The styling for the main and aside were mixed on the style sheet. The styling blocks were organized based on whether or not they belong in the in either the main or the aside. 
 
-* The article elements within the left section used different classes for floating within the style sheet. This was
-
-* There were repeated styling blocks for similar elements with different classes. The styling blocks were condensed by using the same classes ("content-description" for the left elements and "benefits-description" for the right elements) so that the elements could be styled from one block (one for each section). 
+* There were repeated styling blocks for similar elements with different classes. The styling blocks were condensed by using "content-description" for the main elements and "benefits-description" for the aside elements. 
 
 ### Comments
 

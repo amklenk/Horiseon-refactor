@@ -64,7 +64,7 @@ header a {
 }
 /*hero end*/
 
-/*left section styling*/
+/*main styling*/
 .content {
     width: 75%;
     display: inline-block;
@@ -102,9 +102,9 @@ header a {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*left section end*/
+/*main end*/
 
-/*right section styling*/
+/*aside styling*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -131,7 +131,7 @@ header a {
     margin: 10px auto;
     max-width: 150px;
 }
-/*right section end*/
+/*aside end*/
 
 /*footer styling*/
 footer {
