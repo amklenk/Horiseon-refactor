@@ -19,6 +19,7 @@ These sections show each expectation and the changes that were made:
 - [Refactoring](#refactoring)
 - [Credits](#credits)
 - [License](#license)
+- [Tests](#tests)
 
 ## Installation
 The original code was cloned from the urban-octo-telegram respository on GitHub. The refactored code is in the Horiseon-refactor repository on GitHub. It includes an index.html file and an assets folder. Within the assets folder, there are CSS and assets folders that contain the style sheet (style.css) and images, respectively. 
@@ -106,4 +107,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Tests
+
+The site should have the same layout and visible styling as the live site.
 
