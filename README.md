@@ -110,5 +110,5 @@ SOFTWARE.
 
 ## Tests
 
-The site should have the same layout and visible styling as the live site.
+The site should have the same layout, content, and visible styling as the live site.
 
