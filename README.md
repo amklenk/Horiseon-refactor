@@ -43,12 +43,13 @@ The following screenshot shows the site after refactoring. It is visually the sa
         - header
         - nav
         - main
-        - article
-        - aside
         - section
+        - aside
         - footer  
 
-* The images did not have alt attributes. Alt attributes with descriptions were added to each simple image. Empty alt attributes were added to each SVG. 
+* The images did not have alt attributes. Alt attributes with descriptions were added to each simple image. Empty alt attributes were added to each icon in the aside.
+
+* The footer had an h2 tag, which does not fit the focus/importance of the heirarchy (the aside section had h3 tags). This was switched to an h4 tag, which is also reflected in the assigned CSS styling block.
 
 ### HTML Link Fixes
 * The title did not have a homepage link. This was fixed with href="/".
